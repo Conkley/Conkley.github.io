@@ -1,5 +1,5 @@
 // Prints the current date
-var date = new Date();
-setInterval(function(){ 
+setInterval(function(){
+  var date = new Date();
   document.getElementById("date").innerHTML = date;
 }, 1000);
